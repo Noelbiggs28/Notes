@@ -1,0 +1,26 @@
+pwd print working directory
+mkdir make a directory
+cd change directory
+cd .. go up one directory
+cd~ goes back to home directory
+touch create a file
+ls show all files
+ls -l show all files in directory
+ls -la show all files even if hidden
+rm removes a file
+rm -r <name of folder> removes directory
+sudo superuser do
+vi write in file
+cat show whats in file
+cp file.txt > anotherfile.txt copys a file
+mv somefile.txt anotherFile.txt
+grep word file   search for line with word in file
+chmod change a file permissions
+ping website check if website up
+history shows your command history
+echo print in shell
+ -f force
+ -r recursivily 
+ code ~/.zshrc change your shell interface
+
+

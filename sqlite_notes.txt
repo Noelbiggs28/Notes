@@ -1,0 +1,9 @@
+SELECT INSERT DELETE UPDATE
+semi colons are important
+.schema;  shows table 
+SELECT name FROM table;
+SELECT name FROM table JOIN table ON employee_id = companyid;
+SELECT name FROM table LIMIT 10;
+SELECT name FROM table WHERE name = 'Noel';
+SELECT name FROM table ORDER BY name (ASC/DESC);
+phpliteadmin views dbs

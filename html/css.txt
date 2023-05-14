@@ -1,0 +1,25 @@
+section > p {
+    direct child
+}
+section p {
+    any p in a section
+}
+p + p {
+    second p is selected
+}
+tags 1 point
+classes 10 points
+ids 100 points
+!important and inline 1000 points (dont use it)
+elements further down will overwrite previous elements if >= points
+body > article > .likesToQuack{
+    selects tag with class likesToQuack under parent article under parent body
+}
+h1{
+    border:size color solid;
+    color:blue; (font color)
+    height: 30px; 
+    padding-top: 5px; (padding can do top bottom left right or padding)
+    text-align:center; (left right)
+    margin:25px;
+}

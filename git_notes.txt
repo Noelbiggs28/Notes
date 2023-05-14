@@ -1,0 +1,37 @@
+git init (done in folder) start saving versions in git
+git add .
+git commit -m 'note'
+git log         show who changed
+git clone <http>       clones repository'
+git checkout -b anotherBranch       make a new branch
+git branch      show branchs and which one yoru one
+git branch -a       shows all branches
+git checkout <branch name>      change branch
+git status      shows all files in staging area
+git push        pushes whats staged to remote repo (current branch)
+git push -u origin [branchname]     pushes a branch
+git rm -cached <name  of file>       remove from staging area
+git reset <name of file>        removes from staging
+git checkout -b <new name> <from comit randombs>         makes a new branch
+git branch -D <branch name>           remove branch
+git switch -c <name of branch to switch to>
+git merge <branch name>         adds changed from other branch to branch your on
+git pull        
+
+instructions on github after making new repo
+…or create a new repository on the command line
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Noelbiggs28/test.git
+git push -u origin main
+git remote set-url origin <repo url>  changes what githup repo folder is linked to
+…or push an existing repository from the command line
+git remote add origin https://github.com/Noelbiggs28/test.git
+
+
+git add index.py or .     add things to commit
+git commit -m "going to the hub"
+git push -u origin main
