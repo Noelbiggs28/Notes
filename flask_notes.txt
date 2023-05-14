@@ -1,0 +1,11 @@
+app.py
+templates/(html files)
+requirements.txt(third party librarys)
+static/(images/js/css)
+
+variable in html {{ placeholder }}
+must assign when render_template
+
+@app.route("/") (when user visits www.site.com/ do function below)
+def index():
+    return render_template("index.html", placeholder=name)
