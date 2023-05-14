@@ -1,9 +1,8 @@
 highlight and options up and down moves lines
 ! tab makes boilerplate
-<p id="zebra"></p> #zebra{color:red;} select id with # in css
-<p class="robot"></p> .robot{color:red} select class with . in css
 boxmodel.png
 
+example of event listenor and function
 document.querySelector("#turnRed").addEventListener("click", turnRedFunction);
 function turnRedFunction(){
     document.querySelector("body").style.backgroundColor = "red";

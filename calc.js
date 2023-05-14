@@ -1,3 +1,4 @@
+//logic to get calculaor to work
 let arr = []
 let arrend = []
 let str = ''

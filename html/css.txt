@@ -1,3 +1,5 @@
+.class targets class
+#id targets id
 section > p {
     direct child
 }
