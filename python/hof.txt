@@ -1,0 +1,10 @@
+reduce
+
+arr.reduce((a,b)=>a+b)
+
+filter
+
+arr.filter(a=> a% 2 ===1 && a > 3)
+
+
+new arr = arr.map(a=> a+ 2)
