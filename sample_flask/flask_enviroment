@@ -1,0 +1,11 @@
+https://code.visualstudio.com/docs/python/tutorial-flask
+In VS Code, open the Command Palette (View > Command Palette or (⇧⌘P)). Then select the Python: Create Environment command to create a virtual environment in your workspace. Select venv and then the Python environment you want to use to create it.
+You now have a self-contained environment ready for writing Flask code. VS Code activates the environment automatically when you use Terminal: Create New Terminal. If you open a separate command prompt or terminal, activate the environment by running source .venv/bin/activate (Linux/macOS) or .venv\Scripts\Activate.ps1 (Windows). You know the environment is activated when the command prompt shows (.venv) at the beginning.
+python -m pip install flask
+
+In the Integrated Terminal, run the app by entering python -m flask run, which runs the Flask development server. The development server looks for app.py by default. When you run Flask, you should see output similar to the following:
+
+If you see an error that the Flask module cannot be found, make sure you've run python -m pip install flask in your virtual environment as described at the end of the previous section.
+python -m flask run
+flask run
+flex is prefix for layout
