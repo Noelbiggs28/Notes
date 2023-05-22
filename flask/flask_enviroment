@@ -8,4 +8,5 @@ In the Integrated Terminal, run the app by entering python -m flask run, which r
 If you see an error that the Flask module cannot be found, make sure you've run python -m pip install flask in your virtual environment as described at the end of the previous section.
 python -m flask run
 flask run
+flask --app app.py --debug run
 flex is prefix for layout
