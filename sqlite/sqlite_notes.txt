@@ -1,12 +1,18 @@
-SELECT INSERT DELETE UPDATE
+phpliteadmin views dbs 
+possible replacement while out of cs50
+(brew install --cask db-browser-for-sqlite)
 semi colons are important
+sqlite3 database.db shifts terminal to correct db
 .schema;  shows table 
+
+SELECT INSERT DELETE UPDATE
 SELECT name FROM table;
 SELECT name FROM table JOIN table ON employee_id = companyid;
 SELECT name FROM table LIMIT 10;
 SELECT name FROM table WHERE name = 'Noel';
 SELECT name FROM table ORDER BY name (ASC/DESC);
-phpliteadmin views dbs
+
+
 if len(db.execute("SELECT username FROM users WHERE username = ?",'userid')) < 1: how variables work
 db.execute("UPDATE users SET cash = ? WHERE id = ?", newtot, user)
 db.execute("INSERT INTO buys (who, stock, quantity, price) Values(?,?,?,?)", user, info['name'], shares, cost)
