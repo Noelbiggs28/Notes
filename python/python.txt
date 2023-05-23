@@ -1,16 +1,15 @@
+Math:
 // rounds down and divides
 % remainder
 ** power
 
-
 can concat lists
 list3 = list1 + list2
-
 
 can do 2 < x < 7
 instead of 2 < x and x < 7
 
-not instead of !         if not x < 7:       ==      if(!x < 7)
+python uses not instead of !         if not x < 7:       ==      if(!x < 7)
 
 sets a default argument
 print(sum(num1, num2=10))
@@ -20,6 +19,7 @@ word='hello'
 word[::2] = hello
 word[::-1] = olleh
 word.find('3') returns 1 returns index of letter
+
 min() and max() finds in an array
 word.sort(). alters in place
 sorted(word) makes a sorted copy of the list
