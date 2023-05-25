@@ -1,0 +1,51 @@
+https://mystery.knightlab.com/#experienced
+https://github.com/veltman/clmystery
+
+select * from crime_scene_report Where date = 20180115 and city = "SQL City";
+Security footage shows that there were 2 witnesses. 
+The first witness lives at the last house on "Northwestern 
+Dr". The second witness, named Annabel, lives somewhere 
+on "Franklin Ave".
+
+select sql from sqlite_master where name = "person";
+Morty Schapiro 14887
+select * from person Where name like "Annabel%" and address_street_name = "Franklin Ave";
+id = 16371, name = annabel miller, license_id=490173, address_number 103, ssn 318771143
+
+select * from interview where person_id = 16371;              
+I saw the murder happen, and I recognized the killer from my 
+gym when I was working out last week on January the 9th.
+
+I heard a gunshot and then saw a man run out. He had a 
+"Get Fit Now Gym" bag. The membership number on the bag 
+started with "48Z". Only gold members have those bags. 
+The man got into a car with a plate that included "H42W".
+
+select sql from sqlite_master where name = "get_fit_now_member";           
+48Z7A	28819	Joe Germuska	20160305	gold
+48Z55	67318	Jeremy Bowers	20160101	gold
+28819	Joe Germuska	173289	111	Fisk Rd	138909730
+67318	Jeremy Bowers	423327	530	Washington Pl, Apt 3A	871539279
+
+I was hired by a woman with a lot of money. I don't know her 
+name but I know she's around 5'5" (65") or 5'7" (67"). 
+She has red hair and she drives a Tesla Model S. 
+I know that she attended the SQL Symphony Concert 3 times 
+in December 2017.
+
+select * from facebook_event_checkin where event_name = "SQL Symphony Concert";
+select * from person join drivers_license on license_id = drivers_license.id join facebook_event_checkin on person.id = person_id;
+
+select * from person join drivers_license on license_id = drivers_license.id join facebook_event_checkin on person.id = person_id
+where car_make = "Tesla"
+and gender = "female" 
+and car_model = "Model S"
+and hair_color = "red"
+and height < 68
+and height > 64
+
+
+
+
+
+
