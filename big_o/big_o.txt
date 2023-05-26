@@ -1,0 +1,6 @@
+dict = {}
+list = []
+
+if 1 in dict   constant time 0(1) access by value
+
+if 1 in list   on (n) checks each index until it finds it
