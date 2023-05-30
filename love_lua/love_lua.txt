@@ -1,0 +1,7 @@
+to start the program
+love . 
+to get library to draw to virtural screen
+push = require 'push'
+to get library for classes
+Class = require 'class'
+for class example ->pong/Paddle.lua
