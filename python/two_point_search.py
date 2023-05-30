@@ -6,7 +6,7 @@
 #            return true if met
 #            move left pointer
 #            move right pointer
-#   never met return false
+#   never met condition return false
     
 
 def sumZero(int_list):
