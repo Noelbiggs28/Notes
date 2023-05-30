@@ -14,6 +14,8 @@ SELECT name FROM table ORDER BY name (ASC/DESC);
 
 CREATE TABLES stores(names text, likes number)
 
+DELETE FROM table WHERE name = "name";
+
 
 if len(db.execute("SELECT username FROM users WHERE username = ?",'userid')) < 1: how variables work
 db.execute("UPDATE users SET cash = ? WHERE id = ?", newtot, user)
