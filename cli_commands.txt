@@ -1,26 +1,27 @@
-pwd print working directory
-mkdir make a directory
-cd change directory
-cd .. go up one directory
-cd~ goes back to home directory
-touch create a file
-ls show all files
-ls -l show all files in directory
-ls -la show all files even if hidden
-rm removes a file
-rm -r <name of folder> removes directory
-sudo superuser do
-vi write in file
-cat show whats in file
-cp file.txt > anotherfile.txt copys a file
-mv somefile.txt anotherFile.txt
-grep word file   search for line with word in file
-chmod change a file permissions
-ping website check if website up
+cat     show whats in file
+cd      change directory
+cd ..   go up one directory
+cd~     goes back to home directory
+chmod   change a file permissions
+echo    print in shell
 history shows your command history
-echo print in shell
+ls      show all files
+ls -l   show all files in directory
+ls -la  show all files even if hidden
+man ls  shows manual for ls 
+mkdir   make a directory
+ping    website check if website up
+pwd     print working directory
+rm      removes a file
+sudo    superuser do
+touch   create a file
+vi      write in file
+code ~/.zshrc                 change your shell interface
+rm -r <name of folder>        removes directory
+cp file.txt > anotherfile.txt copys a file
+mv somefile.txt               anotherFile.txt
+grep word file                search for line with word in file
  -f force
  -r recursivily 
- code ~/.zshrc change your shell interface
-
-
+echo "print('hello world')" >> hello.py
+creates hello.py with the words inside it
