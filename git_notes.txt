@@ -4,7 +4,7 @@ git commit -m 'note'
 git log         show who changed
 git clone <http>       clones repository'
 git checkout -b anotherBranch       make a new branch
-git branch      show branchs and which one yoru one
+git branch      show branchs and which one your one
 git branch -a       shows all branches
 git checkout <branch name>      change branch
 git status      shows all files in staging area
