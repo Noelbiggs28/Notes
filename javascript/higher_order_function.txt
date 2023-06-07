@@ -1,0 +1,46 @@
+const myArr = [1,2,3,4]
+// const newArr = []
+// for(let i = 0; i < myArr.length; i++ ) {
+//   newArr.push(myArr[i] * 2)
+// }
+// console.log(newArr)
+// // [ 2, 4, 6, 8 ]
+
+// function printMessage(element) {
+//     console.log(`I'm doing something with ${element}`)
+//     return 'something'
+// }
+
+// // iterateAndDo(myArr, printMessage)
+
+// // myArr.forEach( (element) => printMessage(element))
+// const returnValue = myArr.forEach(printMessage)
+// console.log(returnValue)
+
+// function double(element){
+//     return element * 2
+// }
+// const returnValue = myArr.map(double)
+// console.log(returnValue)
+
+
+//makes an array of elements that are true
+// function isEven(element) {
+//     return element % 2 === 0
+// }
+// const returnValue = myArr.filter(isEven)
+// console.log(returnValue)
+// [ 2, 4 ]
+
+// function sum(accumulated, currentElement) {
+//     return accumulated + currentElement
+// }
+
+// const returnValue = myArr.reduce(sum)
+// console.log(returnValue)
+// 10
+// let one = myArr.reduce((a,b)=>a+b)
+console.log(myArr.reduce((a,b)=>a+b))
+
+stringArr= ["cat","dog","mouse"]
+console.log(stringArr.reduce((a, b) => a + b))
