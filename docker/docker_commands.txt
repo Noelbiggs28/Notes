@@ -1,0 +1,7 @@
+docker build . ---build stuff
+docker ps ---lists containers
+docker ps -a ---lists containers for real
+docker stop name --- stops container
+docker rm name ---removes container
+docker images --- shows all images
+docker run --rm -d  -p 9293:9292 chocolatedream/dadjoke

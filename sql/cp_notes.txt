@@ -1,0 +1,1 @@
+SELECT COUNT(*), make FROM carmodel GROUP BY make HAVING make IN ('Volvo','Ford','Kia)

@@ -7,3 +7,7 @@ document.querySelector("#turnRed").addEventListener("click", turnRedFunction);
 function turnRedFunction(){
     document.querySelector("body").style.backgroundColor = "red";
 }
+
+shift+alt+r == hard refresh
+
+https://www.w3schools.com/jsref/dom_obj_event.asp
