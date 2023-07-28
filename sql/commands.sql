@@ -68,3 +68,11 @@ order by surname
 
 -- make it equal to two things
 select * from numbers where number in (1,5);
+
+-- left outer join. double order by
+select originals.firstname, originals.surname, joiners.firstname, joiners.surname 
+from cd.members as originals
+left outer join cd.members as joiners 
+on joiners.memid = originals.recommendedby 
+order by originals.surname, originals.firstname
+;
